@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-c">
+        <h2>Log in</h2>
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <select id="userType">
+            <option value="user">Voter</option>
+            <option value="admin">Admin</option>
+        </select>
+        <button type="submit" onclick="login()">Login</button>
+        <div class="register">
+            <p>Not Registered? <a href="register.html">Register here</a></p>
+        </div>
+    </div>
+    
+    <script src="login.js"></script>
+</body>
+</html>

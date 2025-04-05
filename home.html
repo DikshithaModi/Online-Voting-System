@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Online Voting System</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="navbar">Online Voting System</div>
+
+    <div class="container">
+        <div class="section">
+            <h2 id="welcome-message">Welcome, Voter!</h2>
+            <p>Cast your vote for upcoming elections securely.</p>
+        </div>
+
+        <div class="section">
+            <h2>Upcoming Elections</h2>
+            <p>Election: Student Council 2025</p>
+            <p>Date: April 15, 2025</p>
+            <p>Time Left: <span id="countdown"></span></p>
+            <a href="vote.html" class="btn" onclick="return confirmVote()">Vote Now</a>
+        </div>
+
+        <div class="section">
+            <h2>Recent Results</h2>
+            <p>Election: Local Municipality Elections</p>
+            <a href="results.html" class="btn" onclick="return confirmResults()">View Results</a>
+        </div>
+    </div>
+
+    <script src="home.js"></script>
+</body>
+</html>
