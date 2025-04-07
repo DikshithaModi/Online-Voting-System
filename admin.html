@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Online Voting System</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Admin Panel</h2>
+        <h3>Manage Candidates</h3>
+        <input type="text" id="candidateName" placeholder="Enter Candidate Name">
+        <button class="btn" onclick="addCandidate()">Add Candidate</button>
+        <ul id="candidateList"></ul>
+
+        <h3>Reset Votes</h3>
+        <button class="btn reset-btn" onclick="resetVotes()">Reset All Votes</button>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>
