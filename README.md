@@ -33,8 +33,10 @@ This is a simple **Online Voting System** built using **HTML**, **CSS**, and **J
 
 ---
 ---
+
 Images Link-https://github.com/DikshithaModi/Online-Voting-System/tree/main/images(online%20voting)
---
+
+---
 
 
 ## 🧐 Future Improvements
